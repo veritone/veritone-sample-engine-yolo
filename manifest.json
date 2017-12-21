@@ -1,0 +1,11 @@
+{
+	"engineId" : "4e28d46b-b0d8-44d8-b065-4b82a94ab120",
+	"category": "objectRecognition",
+	"preferredInputFormat": "video/mp4",
+	"outputFormats": [
+		"application/json"
+	],
+	"clusterSize": "small",
+	"intialConcurrency": 50,
+	"maxConcurrency": 50
+}

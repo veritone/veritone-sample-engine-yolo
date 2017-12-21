@@ -1,0 +1,5 @@
+{
+  "baseUri": "https://api.veritone.com/v3/graphql",
+  "detectionThreshold": 0.6,
+  "fps": 1.0
+}
