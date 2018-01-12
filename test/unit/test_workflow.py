@@ -45,27 +45,6 @@ class TestWorkflow(unittest.TestCase):
         {
           "data": {
             "temporalDataObject": {
-              "name": null,
-              "jsondata": {
-                "status": "recorded",
-                "security": {
-                  "global": true
-                },
-                "programId": "5054",
-                "mediaAsset": {
-                  "assetId": "21096537.media"
-                },
-                "recordingId": "21096537",
-                "stopDateTime": 1474645543,
-                "applicationId": "84d1ba5a-4200-4ee7-a216-f13d37395ee1",
-                "mediaSourceId": "23605",
-                "startDateTime": 1474641317,
-                "createdDateTime": 1488966033,
-                "transcriptAsset": {
-                  "assetId": "e352a6da-07d6-4a22-89c9-c15e1f587524"
-                },
-                "modifiedDateTime": 1488966447
-              },
               "assets": {
                 "records": [
                   {

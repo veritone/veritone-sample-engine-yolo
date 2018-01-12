@@ -3,7 +3,7 @@ import os
 from darkflow.net.build import TFNet
 import cv2
 import logging
-from helper import group_recognition_results, create_result, extract_original_video
+from helper import extract_original_video
 
 DARKFLOW_DIR = "darkflow/"
 TEMP_DIR = "temp/"

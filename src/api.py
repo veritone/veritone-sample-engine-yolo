@@ -47,7 +47,7 @@ class APIClient(object):
             return response['temporalDataObject']['assets']['records']
 
         except Exception as e:
-            logging.log('Failed to find {} for recording_id {} due to: {}'.format(asset_type, recording_id, e))
+            logging.error('Failed to find {} for recording_id {} due to: {}'.format(asset_type, recording_id, e))
         return None
 
     def publish_results(self, recording_id, results):

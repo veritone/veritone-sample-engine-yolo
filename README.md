@@ -1,4 +1,4 @@
-# task-yolo-image-recognition
+# Veritone Sample Object Detection Engine - YOLO
 
 This project demonstrates how to create an object detection engine Yolo recognition engine for running on Veritone's platform.
 https://pjreddie.com/darknet/yolo/
