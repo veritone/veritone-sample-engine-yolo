@@ -3,6 +3,7 @@
 	"jobId": "0.1",
 	"taskId": "0.1",
 	"token":"change-me",
-	"recordingId": "1234567890"
+	"recordingId": "1234567890",
+	"veritoneApiBaseUrl": "https://api.veritone.com"
 }
 

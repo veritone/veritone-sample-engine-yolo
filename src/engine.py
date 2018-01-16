@@ -20,7 +20,7 @@ def run(payload_arg):
     config = load_json(CONFIG_PATH)
     payload = load_json(payload_arg)
 
-    client = APIClient(config['baseUri'], payload['token'])
+    client = APIClient(payload['veritoneApiBaseUrl'] + '/v3/graphql', payload['token'])
 
     try:
         client.update_task(payload['jobId'], payload['taskId'], 'running')
